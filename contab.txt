@@ -1,0 +1,6 @@
+export EDITOR=vim #set vim as editor
+crontab -e        #enter what is bellow
+
+/5 * * * * ~/Documents/aws/Python/venv/bin/python3 ~/Documents/aws/Python/Check_web/monitor.py
+
+corontab -l       #check tasks:
