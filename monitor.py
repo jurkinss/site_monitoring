@@ -19,7 +19,7 @@ def notify_user():
         body = 'Say Hi to Karlis :))))'
         msg = f'Subject: {subject}\n\n{body}'
 
-        smtp.sendmail(EMAIL_ADDRESS, 'jurkinss@gmail.com', msg)
+        smtp.sendmail(EMAIL_ADDRESS, 'kinss@gmail.com', msg)     #enter correct email
         print('I have sent email')
 
 
